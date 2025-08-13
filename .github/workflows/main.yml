@@ -5,7 +5,7 @@ name: Main workflow
 # Controls when the workflow will run
 on: push
 env: # Set the secret as an input
-  docker_username: ${{ github.actor }} 
+  docker_username: nima-moayedzadeh
   docker_password: ${{ secrets.GITHUB_TOKEN }} #Nees to be set to be made available to the workflow
 jobs:
   Build:
